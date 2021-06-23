@@ -43,6 +43,11 @@ body{
 
 .home, .about, .template{
     padding: 3px;
+    
+}
+
+.about{
+    text-decoration: none;
 }
 
 
