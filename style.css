@@ -1,7 +1,7 @@
 
 body{
     
-    background-color: rgb(11, 48, 49);
+    background-color: rgb(0, 0, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: cornsilk;
     user-select: none;
@@ -15,6 +15,7 @@ body{
 
 #Main{
     font-weight: 300;
+    color: red;
     
 }
 
@@ -47,8 +48,8 @@ body{
 
 .home:hover{
     font-size: 20px;
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     border-radius: 10px;
     padding: 5px;
     transition: 0.5s;
@@ -57,8 +58,8 @@ body{
 
 .template:hover{
     font-size: 20px;
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     border-radius: 10px;
     padding: 5px;
     transition: 0.5s;
@@ -66,8 +67,8 @@ body{
 
 .about:hover{
     font-size: 20px;
-    color: black;
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     border-radius: 10px;
     padding: 5px;
     transition: 0.5s;
@@ -189,7 +190,7 @@ body{
 
 @media screen and (max-width: 594px){
     .conthead{
-        font-size: 60px;
+        font-size: 70px;
     left: 80px;
 
     }
@@ -198,7 +199,7 @@ body{
 
 @media screen and (max-width: 534px){
     .conthead{
-        font-size: 40px;
+        font-size: 50px;
     left: 70px;
 
     }
@@ -206,11 +207,19 @@ body{
 
 @media screen and (max-width: 408px){
     .conthead{
-        font-size: 20px;
+        font-size: 40px;
         left: 60px;
 
     }
 }
+
+@media screen and (max-width:353px) {
+    .conthead{
+        font-size: 35px;
+        left:60px;
+    }
+}
+
 
 
 /* Paragraph 1 */
@@ -352,6 +361,68 @@ body{
         top: 400px;
         
 
+
+    }
+}
+
+@media screen and (max-width: 463px) {
+
+    .fet1{
+        left: 100px;
+    }
+    .fet2{
+        left: 100px;
+    }
+    .fet3{
+        left: 100px;
+    }
+    .paragraph{
+        top: 400px;
+        left: 60px;
+        margin: 0px;
+        
+
+
+    }
+}
+
+@media screen and (max-width: 405px) {
+
+    .fet1{
+        left: 100px;
+    }
+    .fet2{
+        left: 100px;
+    }
+    .fet3{
+        left: 100px;
+    }
+    .paragraph{
+        top: 350px;
+        left: 60px;
+        margin: 0px;
+        
+
+
+    }
+}
+
+@media screen and (max-width:283px) {
+    .paragraph{
+        font-size: 18px;
+        font-weight: 450;
+        padding: 15px;
+        top: 30px;
+    }
+    .fet1{
+        left: 70px;
+    }
+    .fet2{
+        left: 70px;
+    }
+    .fet3{
+        left: 70px;
+    }
 
     }
 }
