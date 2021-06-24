@@ -165,32 +165,53 @@ body{
 
 }
 
-/* Responsiveness */
-@media screen and (max-width: 600px) {
-    .logo{
-        display: none;
-    }
-    
-}
 
-@media screen and (max-width: 600px) {
-    .logo{
-        display: none;
-    }
-    
-}
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width:800px) {
+    .logo{
+        top: 487px;
+        left: 300px;
+    }
     .box{
-        display: none;
-    }
-    
-}
-@media screen and (max-width: 600px) {
+        top: 473px ;
+        left: 306px;
+        }
     .box3{
-        display: none;
+        top: 476px;
+        left: 298px;
     }
-    
+}
+
+
+@media screen and (max-width:517px) {
+    .logo{
+        top: 487px;
+        left: 180px;
+    }
+    .box{
+        top: 473px ;
+        left: 185px;
+        }
+    .box3{
+        top: 476px;
+        left: 178px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .logo{
+        top: 487px;
+        left: 105px;
+    }
+    .box{
+        top: 473px ;
+        left: 109px;
+        }
+    .box3{
+        top: 476px;
+        left: 102px;
+    }
 }
 
 @media screen and (max-width: 594px){
@@ -201,6 +222,20 @@ body{
     }
 }
 
+@media screen and (max-width:287px) {
+    .logo{
+        top: 497px;
+        left: 50px;
+    }
+    .box{
+        top: 483px ;
+        left: 55px;
+        }
+    .box3{
+        top: 486px;
+        left: 47px;
+    }
+}
 
 @media screen and (max-width: 534px){
     .conthead{
@@ -212,7 +247,7 @@ body{
 
 @media screen and (max-width: 408px){
     .conthead{
-        font-size: 40px;
+        font-size: 45px;
         left: 60px;
 
     }
@@ -220,214 +255,16 @@ body{
 
 @media screen and (max-width:353px) {
     .conthead{
-        font-size: 35px;
+        font-size: 42px;
         left:60px;
     }
 }
 
 
 
-/* Paragraph 1 */
-
-.paragraph{
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    top: 700px;
-    left: 100px;
-    color: black;
-    background-color: cornsilk;
-    border-radius: 5px;
-    text-align: center;
-    max-width: 700px ;
-    max-height: 90%;
-    margin: 20px;
-    padding: 30px;
-    font-weight: 500;
-    font-style: oblique;
-    font-size: 20px;
-}
 
 
-.paragraph:hover{
-    background-color: rgba(193, 243, 93, 0.781);
-    color: whitesmoke;
-    transition: 0.5s;
-}
-
-/* Features */
-
-.fet1{
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    top: 900px;
-    left: 700px;
-    padding: 15px;
-    border-radius: 30px;
-    width: 20ch;
-    background-color: #171717;
-    color: cornsilk;
-    font-size: 20px;
-    font-weight: 600;
-
-}
 
 
-.fet2{
-    position: absolute;
-    justify-content: right;
-    text-align: center;
-    top: 970px;
-    left: 700px;
-    padding: 15px;
-    width: 20ch;
-    border-radius: 30px;
-    background-color: #171717;
-    color: cornsilk;
-    font-size: 20px;
-    font-weight: 600;
-
-}
-
-.fet3{
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    top: 1040px;
-    left: 700px;
-    padding: 15px;
-    width: 20ch;
-    border-radius: 30px;
-    background-color: #171717;
-    color: cornsilk;
-    font-size: 20px;
-    font-weight: 600;
 
 
-}
-
-.fet1:hover{
-    background-color: rgb(248, 248, 1);
-    padding: 17px;
-    transition: 1s;
-    border-color: teal;
-
-}
-.fet2:hover{
-    background-color: rgb(0, 255, 42);
-    padding: 17px;
-    transition: 1s;
-
-}
-.fet3:hover{
-    background-color: rgb(0, 255, 191);
-    padding: 17px;
-    transition: 1s;
-}
-
-
-@media screen and (max-width: 921px) {
-    .fet1{
-    left: 400px;
-    top: 650px;
-        
-    }
-    .fet2{
-        left: 500px;
-    top: 730px;
-
-    
-    }
-    .fet3{
-        left: 500px;
-    top: 800px;
-
-    }
-    .paragraph{
-        top: 600px;
-    }
-    
-}
-
-
-@media screen and (max-width: 587px) {
-
-    .fet1{
-        left: 200px;
-    }
-    .fet2{
-        left: 200px;
-    }
-    .fet3{
-        left: 200px;
-    }
-    .paragraph{
-        top: 400px;
-        
-
-
-    }
-}
-
-@media screen and (max-width: 463px) {
-
-    .fet1{
-        left: 100px;
-    }
-    .fet2{
-        left: 100px;
-    }
-    .fet3{
-        left: 100px;
-    }
-    .paragraph{
-        top: 400px;
-        left: 60px;
-        margin: 0px;
-        
-
-
-    }
-}
-
-@media screen and (max-width: 405px) {
-
-    .fet1{
-        left: 100px;
-    }
-    .fet2{
-        left: 100px;
-    }
-    .fet3{
-        left: 100px;
-    }
-    .paragraph{
-        top: 350px;
-        left: 60px;
-        margin: 0px;
-        
-
-
-    }
-}
-
-@media screen and (max-width:283px) {
-    .paragraph{
-        font-size: 18px;
-        font-weight: 450;
-        padding: 15px;
-        top: 30px;
-    }
-    .fet1{
-        left: 70px;
-    }
-    .fet2{
-        left: 70px;
-    }
-    .fet3{
-        left: 70px;
-    }
-
-    }
-}

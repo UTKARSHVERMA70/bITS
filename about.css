@@ -1,6 +1,6 @@
 body{
 
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 231, 16);
     user-select: none;
     color: #ffffff
 }
@@ -46,7 +46,7 @@ body{
     display: none;
     align-content: center;
     position: relative;
-    top: 200px;
+    top: 5px;
 }
 
 
@@ -58,11 +58,14 @@ body{
 
 @media screen and (max-width:813px) {
     .about{
-        display: none;
+        filter: blur(15px);
     }
 
     .box{
         display: none;
+    }
+    body{
+        backdrop-filter: blur();
     }
     .alert{
         display: block;
