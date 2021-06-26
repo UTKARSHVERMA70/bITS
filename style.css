@@ -129,6 +129,7 @@ body{
     background-color: cornsilk;
     margin: 3px;
     border-radius: 9px;
+    opacity: 1;
 
 
 }
@@ -165,7 +166,33 @@ body{
 
 }
 
+/* Header */
 
+
+.imgfot{
+    float: left;
+    padding: 100px;
+    text-decoration: none;
+    position: relative;
+    top: 500px;
+    align-items: center;
+    background-color: white;
+    max-width: 900px;
+    margin: 15px;
+    background-size: auto;
+
+    padding: 15px;
+    align-items: center;
+    left: 550px;
+    border-radius: 15px;
+    display: block;
+    overflow: hidden;
+    
+}
+
+.imgfot:hover{
+    background-color: red;
+}
 
 
 @media screen and (max-width:800px) {
@@ -180,6 +207,14 @@ body{
     .box3{
         top: 476px;
         left: 298px;
+    }
+    .imgfot{
+        left: 300px;
+        height: 18px;
+        width: 18px;
+    }
+    .girl{
+        display: none;
     }
 }
 
@@ -197,6 +232,11 @@ body{
         top: 476px;
         left: 178px;
     }
+    .imgfot{
+        left: 149px;
+        height: 17px;
+        width: 17px;
+    }
 }
 
 @media screen and (max-width:440px) {
@@ -212,7 +252,34 @@ body{
         top: 476px;
         left: 102px;
     }
+    .imgfot{
+        left: 100px;
+        height: 16px;
+        width: 16px;
+    }
+
 }
+
+@media screen and (max-width:409px) {
+
+    .imgfot{
+        left: 80px;
+        height: 14px;
+        width: 14px;
+    }
+
+}
+
+@media screen and (max-width:342px) {
+
+    .imgfot{
+        left: 50px;
+        height: 12px;
+        width: 12px;
+    }
+
+}
+
 
 @media screen and (max-width: 594px){
     .conthead{
@@ -264,18 +331,27 @@ body{
 
 
 
+/* Background anime girl */
+.girl{
 
 
-
-
-
-
-
-.fot{
-    text-decoration: none;
-    font-size: 8px;
-    font-weight: 100;
-    display: block;
     position: relative;
-    top: 500px;
+    left: 470px;
+    height: 600px;
+    width: auto;
+    opacity: 0.1;
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
