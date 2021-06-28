@@ -1,0 +1,175 @@
+body{
+        background-color: #AB0552;
+        user-select: none;
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    
+}
+
+
+/* Navagation */
+.Home, .Temp, .About{
+    text-decoration: none;
+    background-color: #FF396A;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    border-color: #FF396A;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+
+
+.link{
+
+    text-decoration: none;
+}
+
+
+.nav{
+    color: rgb(252, 244, 244);
+    text-decoration: red;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 200;
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+    text-align: center;
+}
+
+.bit{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Navagation image */
+
+#img
+{
+    float: left;
+    list-style: none;
+    padding: 13px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 18px;
+    margin: 7px;
+}
+
+#nav
+{
+    padding: 30px;
+}
+
+/* First Yellow Box */
+
+
+.header2{
+    background-color: rgb(0, 0, 0);
+    max-width: 900px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    top: 260px;
+    filter: blur(28px);
+    border-radius: 50%;
+    
+}
+
+
+
+.header{
+    background-color: yellow;
+    max-width: 900px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+#head{
+    position: relative;
+    top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+#head:hover{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+
+
+/* Pink box */
+
+.blackeffect{
+    background-color: rgb(0, 0, 0);
+    max-width: 900px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    top: 270px;
+    filter: blur(28px);
+    border-radius: 50%;
+    
+}
+
+.pinkbox
+{
+    background-color: #FF396A;
+    max-width: 900px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#pinkbox
+{
+    position: relative;
+    top: 50px;
+    opacity: 0.6;
+}
+
+#pinkbox:hover{
+    opacity: 1;
+}
+
+
+
+/* Responsiveness */
+
+@media screen and (width:) {
+    
+}

@@ -43,6 +43,7 @@ body{
 
 .home, .about, .template{
     padding: 3px;
+    text-decoration: none;
     
 }
 
@@ -119,7 +120,7 @@ body{
 /* logo */
 
 .logo{
-    height: 150px;
+    height: 140px;
     width: 153px;
     rotate: 8;
     position: absolute;
